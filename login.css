@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  background-image: url("image2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+/* style login */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login__container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 25px;
+}
+.login__container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+  color:#ccc;
+}
+.login__container form {
+  display: flex;
+  flex-direction: column;
+}
+.login__container form label {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.login__container form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.login__container form button {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.login__container form button:hover {
+  background-color:#5c5959;
+}
+.login__container a {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #2b9fa3;
+}
+.login__container a:hover {
+  color: #080f55;
+}
+.login__registerButton {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: block;
+}
